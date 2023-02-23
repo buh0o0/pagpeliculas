@@ -1,0 +1,61 @@
+header{ padding: 20px 20px 20px 80px;  
+
+    background-color: rgb(214, 229, 241); 
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+
+}
+nav{
+    background-color: rgb(182, 215, 245);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+    font-size: 30px;
+
+    
+}
+
+.flex-container{ 
+    display: flex;
+    align-content: space-between;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(117, 177, 192);
+
+    
+}
+.flex-container > div {
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(32, 212, 212);
+    width: 300px;
+    left: 300px;
+    margin: 5px;
+
+}
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+
+section img {
+    flex-grow: 1;
+    overflow: hidden;
+    object-fit: cover;
+    transition: .9s ease;
+
+}
+section img:hover{
+    width: 500px;
+    right: 0%;
+    bottom: 25%;
+}
